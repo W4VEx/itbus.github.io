@@ -209,10 +209,13 @@ body{
 }
 
 footer{
+    display: flex;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    position: static;
     bottom: 0;
+
+   
 
 }
 footer p{
@@ -222,6 +225,8 @@ footer p{
     margin: 30px auto;
     padding: 0.5rem 0;
     color: #333;
+    
+
 
 }
 
