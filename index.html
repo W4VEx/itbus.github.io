@@ -13,29 +13,35 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css
 </head>
 <body>
     <div class="container">
-
+        
         <div class="nav-con">
-    
+            
             <div class="nav">
             
                 <div class="nav-logo">
                     <img class="=imglogo" src="img/itbuslogo2.png" />
                 </div>
-
-                <ul class="nav-ul">
+        
+                <ul class="nav-ul" id="nav-ul">
                     <li><a href="#">Home</a></li>
                     <li><a href="promotion.html">Promotion</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a href="#">Gallary</a></li>
                     <li><a href="#">Store</a></li>
                 </ul>
-            
-            
+
                 <div class="btn-con">
                     <a id = "btn-reg" class="btn-reg">Register</a>
                     <a id = "btn-login" class="btn-login">Login</a>
                 </div>
+
+                <div class="ham-menu" onclick=toggleHam(this)>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             </div>
+        
         </div>
     
         <!-- Header-info -->
@@ -85,7 +91,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css
                 <img class="img-printer"  src="img/S__440844293.jpg"/>
                     <div class="printer-des">
                         <p>PrinterName: Epson L15150</p>
-                        <p>Ink: Epson 800 </p>
+                        <p>Ink: Epson 008 </p>
                             <div class="printer-btn">
                                 <br>
                                 <a href="#">Learn more</a>
@@ -192,7 +198,7 @@ https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css
 
 
 
-</div>
+
 
     <script>src="https://code.jquery.com/jquery-3.7.0.js"</script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

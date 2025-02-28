@@ -16,5 +16,14 @@
     justify-content: center;
     align-items: center;
     width: 500px;
+    margin: 1rem;
 
+}
+
+@media screen and (max-width:800px) {
+    .pro img{
+        width: 90%;
+
+    }
+    
 }
