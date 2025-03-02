@@ -486,25 +486,49 @@ footer p{
         display: none;
 
     }
+
+    #nav-ul {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: orange;
+        /* background-color: aqua; */
+    }
    
+    .nav li {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: #333 2px solid;
+        transition: 0.3s;
+        
+        
+    }
+    
+    .nav li:hover{
+        border-bottom: orange 2px solid;
+        background-color: #eee;
+        
+        
+     }
+
 
     .nav li, a{
+        width: 100%;
+        display: flex;
         justify-content: center;
         align-items: center;
         list-style: none;
-        margin: 2rem 0;
+        margin: 0.5rem 0;
         text-decoration: none;
         font-size: 20px;
-        width: 400%;
-        color: #000;   
-        border-bottom: #333 solid 2px;
+        color: #000;
+        
     }
 
 
-    .nav li a:hover{
-        border-bottom: red solid 2px;
-
-    }
+    
 
 
 
@@ -523,6 +547,10 @@ footer p{
         font-size: 20px;
         font-weight: bolder;
 
+    }
+
+    .printer:hover{
+        transform: scale(1);
     }
     
 }
